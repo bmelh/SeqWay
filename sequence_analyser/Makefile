@@ -15,6 +15,8 @@ SRC = main.c\
 		RNA/RNA_complementary_chain_converter.c\
 		PROT/PROT_seq_composition.c\
 		PROT/PROT_utils.c\
+		ERROR_handler.c\
+		HUMMING_utils.c
 
 OBJ = $(SRC:.c=.o)
 CC = cc

@@ -8,7 +8,7 @@ void DNA_menu(char *sequence)
     printf("0 : Print DNA Composition \n");
     printf("1 : Print DNA complementary chain\n");
     printf("2 : Print RNA of Main chain \n");
-    printf("3 : Print RNA of complementary chain\n");
+    printf("3 : Print RNA of complementary chain\n"); 
     printf("4 : GC Raio Within N window\n");
     printf("5 : Find first occurence of target sequence \n");
     printf("6 : Find all occurences of target sequence\n");
@@ -39,7 +39,7 @@ void DNA_menu(char *sequence)
         search_for_sequence_A_all(sequence);
         break;
     case 7:
-        search_for_sequence_A_all(sequence);
+        search_for_sequence_Humming(sequence);
         break;
     default:
         printf("Please enter a valid value \n");

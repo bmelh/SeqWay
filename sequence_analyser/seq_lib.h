@@ -36,7 +36,12 @@ long long strict_highest_GC_ratio(char *sequence);
 void DNA_menu(char *sequence);
 void RNA_menu(char *sequence);
 void ACIDE_menu(char *sequence);
+/*HUMMING METHOD*/
+void search_for_sequence_Humming(char *sequence);
 /*MAIN*/
 void main_menu(char *sequence);
+/*ERROR HANDLERS*/
+void target_sup_seq();
+
 
 #endif
