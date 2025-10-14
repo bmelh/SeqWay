@@ -2,7 +2,6 @@
 
 void search_for_sequence_Humming(char *sequence)
 {
-
     long long int i = 0;
     long long int j = 0,humming_value = 0;
     long long int seq_len = strlen(sequence);
@@ -11,7 +10,7 @@ void search_for_sequence_Humming(char *sequence)
     long long int ret;
 
     printf("Insert the Target sequence\n");
-    ret = getline(&target, (size_t)&target_len,stdin);
+    ret = getline(&target, (size_t *)&target_len,stdin);
     if(ret == -1)
         printf("Get line error Target sequence \n");
     printf("Insert the  Humming Value\n");

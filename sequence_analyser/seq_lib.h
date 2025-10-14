@@ -43,5 +43,4 @@ void main_menu(char *sequence);
 /*ERROR HANDLERS*/
 void target_sup_seq();
 
-
 #endif
