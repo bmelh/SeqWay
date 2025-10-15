@@ -6,8 +6,7 @@ void search_for_sequence_Humming(char *sequence)
     long long int j = 0,humming_value = 0;
     long long int seq_len = strlen(sequence);
     char *target =  NULL;
-    long long int target_len = 0;
-    long long int ret;
+    long long int target_len = 0,ret;
 
     printf("Insert the Target sequence\n");
     ret = getline(&target, (size_t *)&target_len,stdin);

@@ -1,5 +1,18 @@
 #include "../seq_lib.h"
 
+
+/* Is Base
+
+* Checksif the character is a DNA base ACTG
+
+*input : DNA Base (char)
+
+*output : 1 if ACTG / 0 if else
+
+**README :
+        Checks that the base is either A C T or G
+*/
+
 void DNA_menu(char *sequence)
 {
     int selection;
