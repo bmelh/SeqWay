@@ -4,7 +4,7 @@ int main(int argc, char **argv)
 {
     if(argc != 2)
     {
-        printf("Argument error");
+        printf("Argument error\n");
         return(0);
     }
     while(1)
