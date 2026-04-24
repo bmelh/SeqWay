@@ -21,7 +21,7 @@ void search_for_sequence_Humming(char *sequence)
     while (!in)
     {
         printf("Insert the  Humming Value\n");
-        sscanf("%lli", &humming_value);
+        scanf("%lli", &humming_value);
         if (humming_value >= target_len || humming_value < 0)
             target_sup_seq();
         else
