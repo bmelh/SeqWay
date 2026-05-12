@@ -139,10 +139,6 @@ Selection :
 ## Current Limitations
 
 1. **Main menu currently routes only to DNA path** in `main_menu.c`.
-2. `main.c` runs `main_menu` inside an infinite loop (`while(1)`), so program does not naturally exit.
-3. There are naming/text inconsistencies in code and messages (e.g., `HAMMING`/`HUMMING`, typo in printed labels).
-4. DNA menu prints option `8`, but switch handling may not fully implement all printed options depending on source state.
-
 ---
 
 ## Troubleshooting
